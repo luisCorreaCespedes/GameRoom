@@ -5,40 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/diamonds.css">
     <title>Document</title>
 </head>
 <body>
-    <img src="./assets/img/banner.png" alt="" width="500px" style="margin-top: 30px;">
-    <ul class="main-nav">
+
+    <!-- BANNER -->
+    <img id="banner" src="./assets/img/banner.png" alt="" width="500px" style="margin-top: 30px;">
+
+    <!-- GAMES -->
+    <div class="diamond-grid">
 
         <!-- SnakeJS -->
-        <li class="item1">
-            <a href="https://retrosnakejs.netlify.app">
-                <div class="bg"></div>
-            </a>
-        </li>
+        <div class="item" id="img1">
+            <a href="https://retrosnakejs.netlify.app"><img src="./assets/img/snakeJS.gif" alt=""></a>
+        </div>
 
         <!-- BreakoutJS -->
-        <li class="item2">
-            <a href="https://retrobreakoutjs.netlify.app">
-                <div class="bg"></div>
-            </a>
-        </li>
+        <div class="item" id="img2">
+            <a href="https://retrobreakoutjs.netlify.app"><img src="./assets/img/breakoutJS.gif" alt=""></a>
+        </div>
 
-        <li class="item3">
-            <div class="bg"></div>
-        </li>
-
-        <li class="item4">
-            <div class="bg"></div>
-        </li>
-
-        <li class="item5">
-            <div class="bg"></div>
-        </li>
-
-        </ul>
+        <div class="item" id="imgSoon"><img src="./assets/img/soon.png" alt=""></div>
     </div>
-    
+
+    <!-- FOOTER -->
+    <img id="banner" src="./assets/img/footer.png" alt="" width="200px" style="margin-top: 100px;">
+
+    <!-- SCRIPTS -->
+    <script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="./assets/js/jquery.diamonds.js"></script>
+    <script src="./assets/js/music.js"></script>
+    <script type="text/javascript" src="./assets/js/app.js"></script>
+       
 </body>
 </html>
