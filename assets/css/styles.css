@@ -10,7 +10,7 @@ body {
 }
 
 #banner {
-    opacity: .8;
+    opacity: .9;
 }
 
 .diamond-grid {
@@ -26,7 +26,7 @@ body {
     width: 220px;
     height: 220px;
     background: #fff;
-    opacity: 0.3;
+    opacity: 0.2;
     transition: 0.5s;
 }
 
