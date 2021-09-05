@@ -1,0 +1,101 @@
+body {
+    background: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+    padding: 0;
+    width: 600px;
+    height: 150px;
+}
+
+ul li {
+    list-style: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: -100px;
+    transform: rotate(45deg);
+    transition: .5s;
+    overflow: hidden;
+    opacity: .4;
+}
+
+ul li:hover {
+    opacity: 1;
+}
+
+ul li.item1 {
+    background-color: #fff;
+    top: 0;
+    left: 0%;
+}
+
+ul li.item2 {
+    background-color: #000;
+    bottom: 0;
+    left: 25%;
+}
+
+ul li.item3 {
+    background-color: #000;
+    bottom: 0;
+    top: 0;
+    left: 50%;
+}
+
+ul li.item4 {
+    background-color: #000;
+    bottom: 0;
+    bottom: 0;
+    left: 75%;
+}
+
+ul li.item5 {
+    background-color: #000;
+    bottom: 0;
+    top: 0;
+    left: 100%;
+}
+
+ul li .bg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg)
+}
+
+ul li.item1 .bg {
+    background: url('../img/snakeJS.gif');
+    background-size: cover;
+}
+
+ul li.item2 .bg {
+    background: url('../img/breakoutJS.gif');
+    background-size: cover;
+}
+
+ul li.item3 .bg {
+    background: url('../img/soon.png');
+    background-size: cover;
+}
+
+ul li.item4 .bg {
+    background: url('../img/soon.png');
+    background-size: cover;
+}
+
+ul li.item5 .bg {
+    background: url('../img/soon.png');
+    background-size: cover;
+}
