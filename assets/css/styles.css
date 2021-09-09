@@ -23,7 +23,7 @@ body {
 }
 
 .dissapear {
-    animation: vanish 6s forwards;
+    animation: vanish 3s forwards;
 }
 
 @keyframes vanish {
