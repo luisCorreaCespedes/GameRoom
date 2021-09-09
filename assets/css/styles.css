@@ -23,7 +23,7 @@ body {
 }
 
 .dissapear {
-    animation: vanish 5s forwards;
+    animation: vanish 6s forwards;
 }
 
 @keyframes vanish {
@@ -34,7 +34,7 @@ body {
 }
 
 #banner {
-    opacity: .9;
+    opacity: .7;
 }
 
 
