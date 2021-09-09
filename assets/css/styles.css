@@ -9,9 +9,34 @@ body {
     overflow: hidden;
 }
 
+.loader {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background: black;
+    height: 100%;
+    width: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dissapear {
+    animation: vanish 5s forwards;
+}
+
+@keyframes vanish {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
 #banner {
     opacity: .9;
 }
+
 
 .diamond-grid {
     width:  70%;
